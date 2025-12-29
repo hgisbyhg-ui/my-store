@@ -181,7 +181,7 @@ a:hover {
   position: absolute;
   top: 0;
   width: 100%;
-  padding: 1.5rem 0;
+  padding: 2.5rem 0 1.5rem;
   z-index: 10;
 }
 
@@ -190,4 +190,10 @@ a:hover {
   letter-spacing: 0.3em;
   font-weight: 700;
   color: var(--gold);
+}
+
+@media (max-width: 480px) {
+  .brand {
+    letter-spacing: 0.2em;
+  }
 }
