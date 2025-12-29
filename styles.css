@@ -22,8 +22,8 @@ body {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: center;
-  padding-top: 9rem; /* creates space from brand */
+  justify-content: flex-start; /* stop vertical centering */
+  padding-top: 5rem;          /* controlled top spacing */
   background: radial-gradient(circle at top, #1a1a1a, #0e0e0e);
 }
 
@@ -192,6 +192,8 @@ a:hover {
   letter-spacing: 0.22em;
   font-weight: 700;
   color: var(--gold);
+  margin-bottom: 1.5rem;  /* space below logo only */
+  display: block;
 }
 
 @media (max-width: 480px) {
