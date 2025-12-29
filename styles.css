@@ -23,7 +23,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 6rem; /* pushes hero content down from the logo */
+  padding-top: 6rem; /* creates space from brand */
   background: radial-gradient(circle at top, #1a1a1a, #0e0e0e);
 }
 
