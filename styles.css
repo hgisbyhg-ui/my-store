@@ -181,7 +181,8 @@ a:hover {
   position: absolute;
   top: 0;
   width: 100%;
-  padding: 2.5rem 0 1.5rem;
+  padding-top: 2.5rem;   /* push brand down slightly */
+  padding-bottom: 1.5rem;
   z-index: 10;
 }
 
