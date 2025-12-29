@@ -176,3 +176,18 @@ a:hover {
 .section {
   margin-top: 4rem;
 }
+
+.site-header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  padding: 1.5rem 0;
+  z-index: 10;
+}
+
+.brand {
+  font-size: 1rem;
+  letter-spacing: 0.3em;
+  font-weight: 700;
+  color: var(--gold);
+}
