@@ -23,6 +23,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-top: 6rem; /* pushes hero content down from the logo */
   background: radial-gradient(circle at top, #1a1a1a, #0e0e0e);
 }
 
@@ -191,7 +192,6 @@ a:hover {
   letter-spacing: 0.22em;
   font-weight: 700;
   color: var(--gold);
-  margin-bottom: 2.5rem; /* space before hero headline */
 }
 
 @media (max-width: 480px) {
