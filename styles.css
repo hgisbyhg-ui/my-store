@@ -202,6 +202,6 @@ a:hover {
   }
 }
 
-.hero .container {
-  transform: translateY(10vh);
+.brand {
+  margin-top: 8vh;
 }
