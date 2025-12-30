@@ -201,3 +201,7 @@ a:hover {
     letter-spacing: 0.2em;
   }
 }
+
+.hero .container {
+  transform: translateY(10vh);
+}
