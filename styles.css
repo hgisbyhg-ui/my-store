@@ -204,4 +204,19 @@ a:hover {
 
 .brand {
   margin-top: 8vh;
+  position: relative;
+}
+
+.brand::after {
+  content: "";
+  display: block;
+  width: 5rem;
+  height: 1.5px;
+  margin: 0.9rem auto 0;
+  background: linear-gradient(
+    to right,
+    transparent,
+    rgba(212, 175, 55, 0.85),
+    transparent
+  );
 }
