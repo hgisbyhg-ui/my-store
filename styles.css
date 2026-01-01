@@ -204,13 +204,17 @@ a:hover {
 }
 
 .brand {
-  position: absolute;
+  position: fixed;
   top: 8vh;
   left: 50%;
   transform: translateX(-50%);
-  width: max-content;
+  font-size: 0.95rem;
+  letter-spacing: 0.22em;
+  font-weight: 700;
+  color: var(--gold);
   text-align: center;
-  pointer-events: none;
+  white-space: nowrap;
+  z-index: 100;
 }
 
 .brand::after {
@@ -218,7 +222,7 @@ a:hover {
   display: block;
   width: 5rem;
   height: 1.5px;
-  margin: 0.9rem auto 0;
+  margin: 0.8rem auto 0;
   background: linear-gradient(
     to right,
     transparent,
