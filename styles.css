@@ -203,20 +203,6 @@ a:hover {
   }
 }
 
-.brand {
-  position: fixed;
-  top: 8vh;
-  left: 50%;
-  transform: translateX(-50%);
-  font-size: 0.95rem;
-  letter-spacing: 0.22em;
-  font-weight: 700;
-  color: var(--gold);
-  text-align: center;
-  white-space: nowrap;
-  z-index: 100;
-}
-
 .brand::after {
   content: "";
   display: block;
