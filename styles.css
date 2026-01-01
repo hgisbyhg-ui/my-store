@@ -5,6 +5,7 @@
 }
 
 body {
+  postion: relative;
   font-family: system-ui, sans-serif;
   background: #0e0e0e;
   color: #ffffff;
