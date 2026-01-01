@@ -193,8 +193,10 @@ a:hover {
   letter-spacing: 0.22em;
   font-weight: 700;
   color: var(--gold);
-  margin-bottom: 3rem;  /* space below logo only */
+  margin-top: 8vh;
+  margin-bottom: 3rem;
   display: block;
+  text-align: center;
 }
 
 @media (max-width: 480px) {
