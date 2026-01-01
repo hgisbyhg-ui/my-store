@@ -207,8 +207,7 @@ a:hover {
   position: relative;
   display: block;
   text-align: center;
-  left: 50%;
-  transform: translateX(-50%);
+  margin-left: -0.35rem; /* optical centering correction */
 }
 
 .brand::after {
