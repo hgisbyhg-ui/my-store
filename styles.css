@@ -205,3 +205,20 @@ p {
   h1 { font-size: 2.3rem; }
   .subtitle { font-size: 1.1rem; }
 }
+
+/* === REMOVE BLACK BARS ABOVE / BELOW PRODUCT IMAGES === */
+
+.image-slider.swipe {
+  height: auto;
+  align-items: stretch;
+}
+
+.image-slider.swipe .slides {
+  align-items: stretch;
+}
+
+.image-slider.swipe .slide {
+  display: block;
+  height: auto;
+  max-height: none;
+}
