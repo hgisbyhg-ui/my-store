@@ -251,3 +251,11 @@ p {
     margin-bottom: 20px !important;
   }
 }
+
+/* === FIX: Close hero gap without breaking logo layout === */
+.hero {
+  min-height: unset !important;
+  height: auto !important;
+  padding-top: 120px !important;   /* keeps logo separate */
+  padding-bottom: 32px !important; /* removes giant gap */
+}
