@@ -235,3 +235,19 @@ p {
     padding-bottom: 16px !important;
   }
 }
+
+/* === Restore spacing between brand logo and headline === */
+
+.hero .brand-logo,
+.hero .logo,
+.hero img {
+  margin-bottom: 24px !important;
+}
+
+@media (max-width: 768px) {
+  .hero .brand-logo,
+  .hero .logo,
+  .hero img {
+    margin-bottom: 20px !important;
+  }
+}
