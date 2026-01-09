@@ -14,21 +14,11 @@ h1, h2, h3 {
   margin: 0 0 10px 0;
 }
 
-h1 {
-  font-size: 2.5rem;
-}
+h1 { font-size: 2.5rem; }
+h2 { font-size: 2rem; }
+h3 { font-size: 1.25rem; }
 
-h2 {
-  font-size: 2rem;
-}
-
-h3 {
-  font-size: 1.25rem;
-}
-
-p {
-  margin: 0 0 10px 0;
-}
+p { margin: 0 0 10px 0; }
 
 /* -----------------------
    Containers
@@ -39,9 +29,7 @@ p {
   padding: 0 20px;
 }
 
-.text-center {
-  text-align: center;
-}
+.text-center { text-align: center; }
 
 /* -----------------------
    Hero Section
@@ -53,31 +41,14 @@ p {
   text-align: center;
 }
 
-.hero h1 {
-  font-size: 3rem;
-  margin-bottom: 15px;
-}
-
-.subheadline {
-  font-size: 1.25rem;
-  margin-bottom: 15px;
-}
-
-.supporting {
-  font-size: 1.1rem;
-  color: #D4AF37;
-  margin-bottom: 20px;
-}
-
-.secondary {
-  color: #ccc;
-  font-size: 0.9rem;
-  margin-top: 10px;
-}
+.hero h1 { font-size: 3rem; margin-bottom: 15px; }
+.subheadline { font-size: 1.25rem; margin-bottom: 15px; }
+.supporting { font-size: 1.1rem; color: #D4AF37; margin-bottom: 20px; }
+.secondary { color: #ccc; font-size: 0.9rem; margin-top: 10px; }
 
 .btn-primary {
   background-color: #D4AF37;
-  color: #333333;
+  color: #333;
   padding: 15px 40px;
   border-radius: 8px;
   font-weight: bold;
@@ -85,25 +56,13 @@ p {
   display: inline-block;
   transition: background 0.3s;
 }
-
-.btn-primary:hover {
-  background-color: #b8942d;
-}
+.btn-primary:hover { background-color: #b8942d; }
 
 /* -----------------------
    Sections
 -------------------------*/
-.section-white {
-  background-color: #fff;
-  color: #333;
-  padding: 60px 20px;
-}
-
-.section-gray {
-  background-color: #eaeaea;
-  color: #333;
-  padding: 60px 20px;
-}
+.section-white { background-color: #fff; color: #333; padding: 60px 20px; }
+.section-gray { background-color: #eaeaea; color: #333; padding: 60px 20px; }
 
 /* -----------------------
    Grid
@@ -115,11 +74,7 @@ p {
   margin-top: 30px;
 }
 
-@media(min-width: 768px) {
-  .grid-4 {
-    grid-template-columns: repeat(4, 1fr);
-  }
-}
+@media(min-width: 768px) { .grid-4 { grid-template-columns: repeat(4, 1fr); } }
 
 /* -----------------------
    Card Styles
@@ -143,8 +98,8 @@ p {
    Card Icons (FontAwesome)
 -------------------------*/
 .card-icon {
-  font-size: 40px;       /* Icon size */
-  color: #D4AF37;        /* Brand gold */
+  font-size: 40px;
+  color: #D4AF37;
   display: block;
   margin: 0 auto 10px auto;
 }
@@ -165,68 +120,52 @@ ul {
 }
 
 /* -----------------------
-   Links
+   Signup form
 -------------------------*/
-a {
-  text-decoration: none;
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
 }
 
-a:hover {
-  opacity: 0.9;
+.signup-form input[type="email"] {
+  padding: 12px 15px;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  margin-bottom: 15px;
+  font-size: 1rem;
 }
+
+.signup-form button {
+  padding: 12px 30px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #D4AF37;
+  color: #333;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.signup-form button:hover { background-color: #b8942d; }
 
 /* -----------------------
    Responsive Adjustments
 -------------------------*/
 @media (max-width: 768px) {
-  /* Hero adjustments */
-  .hero {
-    padding: 40px 20px;
-  }
-
-  .hero h1 {
-    font-size: 2rem;
-  }
-
-  .hero .subheadline {
-    font-size: 1rem;
-  }
-
-  .hero .supporting {
-    font-size: 0.95rem;
-  }
-
-  .btn-primary {
-    padding: 12px 30px;
-  }
-
-  /* Section headers */
-  h2 {
-    font-size: 1.5rem;
-  }
-
-  h3 {
-    font-size: 1.1rem;
-  }
-
-  /* Grid adjustments */
-  .grid-4 {
-    grid-template-columns: 1fr;
-  }
-
-  /* Card padding */
-  .card {
-    padding: 12px;
-  }
-
-  /* Section padding */
-  .section-white,
-  .section-gray {
-    padding: 40px 20px;
-  }
-
-  /* Lists text-center for mobile */
-  ul {
-    text-align: left;
-  }
+  .hero { padding: 40px 20px; }
+  .hero h1 { font-size: 2rem; }
+  .hero .subheadline { font-size: 1rem; }
+  .hero .supporting { font-size: 0.95rem; }
+  .btn-primary { padding: 12px 30px; }
+  h2 { font-size: 1.5rem; }
+  h3 { font-size: 1.1rem; }
+  .grid-4 { grid-template-columns: 1fr; }
+  .card { padding: 12px; }
+  .section-white, .section-gray { padding: 40px 20px; }
+  .signup-form input[type="email"] { width: 90%; }
 }
