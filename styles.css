@@ -9,6 +9,7 @@ body {
 
 h1, h2, h3 {
   font-family: 'Montserrat', sans-serif;
+  margin: 0 0 10px 0;
 }
 
 h1 {
@@ -35,6 +36,7 @@ h3 {
   background-color: #333333;
   color: white;
   padding: 80px 20px;
+  text-align: center;
 }
 
 .hero h1 {
@@ -112,4 +114,56 @@ h3 {
   border: 1px solid #ddd;
   background: #fff;
   box-shadow: 0px 4px 6px rgba(0,0,0,0.05);
+}
+
+/* Responsive Typography & Spacing */
+@media (max-width: 768px) {
+  /* Hero adjustments */
+  .hero {
+    padding: 40px 20px;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero .subheadline {
+    font-size: 1rem;
+  }
+
+  .hero .supporting {
+    font-size: 0.95rem;
+  }
+
+  .btn-primary {
+    padding: 12px 30px;
+  }
+
+  /* Section headers */
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1.1rem;
+  }
+
+  /* Grid adjustments */
+  .grid-4 {
+    grid-template-columns: 1fr;
+  }
+
+  /* Cards padding */
+  .card {
+    padding: 15px;
+  }
+}
+
+/* Links & Buttons Hover */
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.9;
 }
